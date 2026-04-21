@@ -25,7 +25,7 @@ cd /path/to/your/folder
 git init
 git remote add origin https://github.com/MiMi613/apollo-11-sysml-v2.git
 git fetch origin
-git checkout -b <default-branch> origin/<default-branch>
+git checkout -b main origin/main
 ```
 
 # Model Documentation
