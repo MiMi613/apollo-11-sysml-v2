@@ -17,6 +17,29 @@ Refer to [LICENCE](./LICENSE.md) file.
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. For detailed contributing guidelines, please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
+## Connect a local folder to this repository
+If your local root folder is `Syside Exploration`, run these commands **inside that folder**:
+
+```bash
+cd "/path/to/Syside Exploration"
+git init
+git remote add origin https://github.com/MiMi613/apollo-11-sysml-v2.git
+git fetch origin
+git checkout -b main origin/main
+```
+If `main` already exists locally, use:
+
+```bash
+git checkout main
+git branch --set-upstream-to=origin/main main
+```
+
+Then pull updates with:
+
+```bash
+git pull origin main
+```
+
 # Model Documentation
 ## 1. Introduction
 The model's primary purpose is twofold:
