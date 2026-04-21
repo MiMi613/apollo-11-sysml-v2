@@ -17,6 +17,17 @@ Refer to [LICENCE](./LICENSE.md) file.
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. For detailed contributing guidelines, please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
+## Connect a local folder to this repository
+If you already have a local folder and want to connect it to this GitHub repository, run:
+
+```bash
+cd /path/to/your/folder
+git init
+git remote add origin https://github.com/MiMi613/apollo-11-sysml-v2.git
+git fetch origin
+git checkout -b <default-branch> origin/<default-branch>
+```
+
 # Model Documentation
 ## 1. Introduction
 The model's primary purpose is twofold:
