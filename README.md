@@ -27,6 +27,12 @@ git remote add origin https://github.com/MiMi613/apollo-11-sysml-v2.git
 git fetch origin
 git checkout -b main origin/main
 ```
+If `main` already exists locally, use:
+
+```bash
+git checkout main
+git branch --set-upstream-to=origin/main main
+```
 
 # Model Documentation
 ## 1. Introduction
